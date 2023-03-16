@@ -1,0 +1,22 @@
+{
+    "name": "com.stinkysteak.pubsub",
+    "version": "0.0.1",
+    "displayName": "Pub-Sub Framework",
+    "description": "Publish Subscribe framework",
+    "unity": "2021.3",
+    "documentationUrl": "https://github.com/StinkySteak/simple-pubsub",
+    "changelogUrl": "https://example.com/changelog.html",
+    "licensesUrl": "https://example.com/licensing.html",
+    "author": {
+      "name": "Stinkysteak",
+      "email": "stinkysteak@steaksoft.com",
+      "url": "https://steaksoft.net"
+    },
+    "samples" : [
+      {
+        "displayName":"Sample Scene",
+        "description":"Sample Simple Pub Sub Demonstration",
+        "path":"Samples~/Demo"
+      }
+    ]
+  }
