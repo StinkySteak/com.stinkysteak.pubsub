@@ -1,0 +1,7 @@
+
+# 0.1.0
+
+-Added: `SignalManager`, `ISignal`, `ISubscription`, `SignalManagerInstance`, `Subscription`, `ISubscription`  
+-Samples: Simple Demo
+
+-Added: License, Changelog
