@@ -19,6 +19,9 @@ public struct PlayerDamagedSignal : ISignal
 ```csharp
 public class HealthHandler : MonoBehaviour 
 {
+    private void Start()
+        => SignalManager.Subscribe<PlayerDamagedSignal>(OnSignalReceived);
+
     private void OnSignalReceived(PlayerDamagedSignal signal)
         => Debug.Log($"Reduce Amount: {signal.ReduceAmount}");
 }
