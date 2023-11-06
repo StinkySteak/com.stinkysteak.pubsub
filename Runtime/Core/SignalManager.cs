@@ -13,6 +13,12 @@ namespace StinkySteak.Pubsub
         public static void Unsubscribe(object listener, Type signal)
             => SignalManagerInstance.Instance.Unsubscribe(listener, signal);
 
+        public static void Initialize()
+        {
+            SignalManagerInstance instance = new();
+            SignalManagerInstance.Initialize(instance);
+        }
+
         public static void Dispose()
         {
             SignalManagerInstance.Dispose();

@@ -13,6 +13,9 @@ namespace StinkySteak.Pubsub
         /// </summary>
         private readonly Dictionary<Type, List<ISubscription>> _subscription = new();
 
+        internal static void Initialize(SignalManagerInstance instance)
+            => Instance = instance;
+
         internal void Subscribe<T>(Action<T> subscriber, bool oneTime = false) where T : ISignal
         {
             Type signalType = typeof(T);

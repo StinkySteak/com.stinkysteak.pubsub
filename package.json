@@ -1,22 +1,22 @@
 {
-    "name": "com.stinkysteak.pubsub",
-    "version": "0.1.0",
-    "displayName": "Pub-Sub Framework",
-    "description": "Publish Subscribe framework",
-    "unity": "2021.3",
-    "documentationUrl": "https://github.com/StinkySteak/com.stinkysteak.pubsub",
-    "changelogUrl": "https://github.com/StinkySteak/com.stinkysteak.pubsub/blob/main/CHANGELOG.md",
-    "licensesUrl": "https://github.com/StinkySteak/com.stinkysteak.pubsub/blob/main/LICENSE",
-    "author": {
-      "name": "Stinkysteak",
-      "email": "stinkysteak@steaksoft.com",
-      "url": "https://steaksoft.net"
-    },
-    "samples" : [
-      {
-        "displayName":"Sample Scene",
-        "description":"Sample Pub Sub framework demonstration",
-        "path":"Samples~/Demo"
-      }
-    ]
-  }
+  "name": "com.stinkysteak.pubsub",
+  "version": "0.1.1",
+  "displayName": "Pub-Sub Framework",
+  "description": "Publish Subscribe framework",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/StinkySteak/com.stinkysteak.pubsub",
+  "changelogUrl": "https://github.com/StinkySteak/com.stinkysteak.pubsub/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/StinkySteak/com.stinkysteak.pubsub/blob/main/LICENSE",
+  "author": {
+    "name": "Stinkysteak",
+    "email": "stinkysteak@steaksoft.com",
+    "url": "https://steaksoft.net"
+  },
+  "samples": [
+    {
+      "displayName": "Sample Scene",
+      "description": "Sample Pub Sub framework demonstration",
+      "path": "Samples~/Demo"
+    }
+  ]
+}
