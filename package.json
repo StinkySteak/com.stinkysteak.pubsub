@@ -1,6 +1,6 @@
 {
   "name": "com.stinkysteak.pubsub",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "displayName": "Pub-Sub Framework",
   "description": "Publish Subscribe framework",
   "unity": "2021.3",
