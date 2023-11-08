@@ -69,6 +69,8 @@ namespace StinkySteak.Pubsub
 
         static internal void Dispose()
         {
+            if (Instance == null) return;
+
             Instance._subscription.Clear();
             Instance = null;
         }
